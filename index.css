@@ -6,7 +6,22 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-#description {
+h1 {
+  text-align: center;
+}
+
+.picture {
+  padding: 10px solid #881410;
+}
+
+span {
+  margin-left: 8px;
+  position: absolute;
+  float: right;
+  width: 70%;
+}
+
+.description {
   font-family: "Verdana", sans-serif;
 }
 
