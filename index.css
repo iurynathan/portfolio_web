@@ -1,0 +1,19 @@
+body {
+  background-color: #3babfd;
+}
+
+#name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#description {
+  font-family: "Verdana", sans-serif;
+}
+
+.contrast { 
+  font-style: italic;
+}
+
+.contrast-list {
+  font-size: 0.8em;
+}
