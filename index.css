@@ -19,6 +19,10 @@ div {
   display: block;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   position: relative;
 }
@@ -98,6 +102,28 @@ div {
   background: #161681c4;
 }
 
-.about-me .ht {
+.ht {
   width: 70%;
+}
+
+.service {
+  background: #c02e2ec4;
+}
+
+.service h3 {
+  margin: 0 15%;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.columns ul {
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+
+.columns h4 {
+  align-content: center;
 }
