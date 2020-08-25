@@ -15,16 +15,12 @@ body {
   background-size: cover;
 }
 
-div {
-  display: block;
-}
-
 ul {
   list-style: none;
 }
 
 .container {
-  position: relative;
+  align-items: center;
 }
 
 .ht {
@@ -130,12 +126,14 @@ ul {
 
 .contact {
   align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+
+.container p {
+  text-align: center;
 }
 
 .contact h1 {
+  text-align: center;
   padding-top: 15px;
+  padding-bottom: 5px;
 }
