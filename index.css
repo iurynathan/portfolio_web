@@ -3,6 +3,11 @@
   margin: auto;
 }
 
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
 body {
   color: antiquewhite;
   background-image: url(/background-1000x500.jpg);
@@ -10,10 +15,62 @@ body {
   background-size: cover;
 }
 
+div {
+  display: block;
+}
+
+.container {
+  position: relative;
+}
+
+.ht {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.ht h2 {
+  padding-left: 15px;
+}
+
+.columns {
+  width: 70%;
+  position: relative;
+  display: flex;
+}
+
+.columns h3 {
+  width: 50%;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.columns p {
+  width: 50%;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.ht h1 {
+  font-size: 56px;
+  display: inline-block;
+}
+
+.ht h2 {
+  font-size: 18px;
+  display: inline-block;
+}
+
 .header {
   padding: 25px;
-  background: #000000a6;
   text-align: center;
+}
+
+.container .header {
+  background: #000000a6;
 }
 
 .header-content {
@@ -26,7 +83,6 @@ body {
 .header img {
   margin: 20px;
   border-radius: 50%;
-  width: 20%;
 }
 
 .header h1 {
@@ -36,4 +92,12 @@ body {
 .sub-tittle {
   font-family: 'Lobster', cursive;
   font-size: 1.3em;
+}
+
+.about-me {
+  background: #161681c4;
+}
+
+.about-me .ht {
+  width: 70%;
 }
