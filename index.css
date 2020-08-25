@@ -127,3 +127,15 @@ ul {
 .columns h4 {
   align-content: center;
 }
+
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact h1 {
+  padding-top: 15px;
+}
