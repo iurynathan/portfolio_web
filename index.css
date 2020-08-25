@@ -1,0 +1,39 @@
+* {
+  font-family: "Rubik", sans-serif;
+  margin: auto;
+}
+
+body {
+  color: antiquewhite;
+  background-image: url(/background-1000x500.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  padding: 25px;
+  background: #000000a6;
+  text-align: center;
+}
+
+.header-content {
+  font-size: 250%;
+  margin-top: 30px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.header img {
+  margin: 20px;
+  border-radius: 50%;
+  width: 20%;
+}
+
+.header h1 {
+  font-size: 3em;
+}
+
+.sub-tittle {
+  font-family: 'Lobster', cursive;
+  font-size: 1.3em;
+}
